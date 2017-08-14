@@ -1,1 +1,9 @@
 language: node_js
+deploy:
+  provider: elasticbeanstalk
+  access_key_id: AKIAJFVLYCOVY23JFWJA
+  secret_access_key:
+    secure: "dGEw5ojPQKI0clIfOvKRIGwVf1VBD52DgCsnSkhSUHW9YEjnhFGJEVtMMGyRoxBwM43CxSvFBVwnLA+5DMXnr31MkYnGH4SNE0b4L/SH4bbDtN5lRsX6a/TR4RlCb529DY+WOhHdmvYR4UAGhGv37G1u7cFb0ZxODCw1mMraljc+Dx9sV1uuvmyYmZYnyelVzQtsMcGmxT0V0A2LDJcggI+Id8PSIKCSL7svszTqEJXx7a7bot986IA//qfYOG0rqf3MUpmZqqne4Cl3XMu9FRnmflZn4hBpbTU/1d9yoVMGXYtAO2oI1nL8v0T/nhab6H981Bde4un0qBjPj1geJyquFvwHiaSjM7Cy+VP63voasx8mZ0OOInK5OV4kFvg2tHMp457XOMTnNbwrNSxkWX/csPIdMrimeH80/y+ueMkiIDZS2QmCRuJSJ42EPTxM/Lh2I5LV6K0oJDNcqIcxbdi/EzqWvjVjpnLIcWIsEQz/u2pBmiuONfeIzRB10oUic1i4v1cFCczF9PwHQEj3AlbkdG4aSlbNe0B9RLUVNO1kEVWA1kV/TO56kp/x8O4Zvsh1Wor3EAhxV8xK75p7nB+YVaO+U2FpeAkCjN5iXBoCLVO71LYQYmaKT72vFplClRso16AjjuUtJB5h3k6vohrhccs1W85fXU1hEUCUSN4="
+  region: "ap-northeast-2"
+  app: "pocketmon"
+  env: "pocketmon-env"
