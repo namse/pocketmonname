@@ -1,0 +1,19 @@
+{
+  "name": "pocketmon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skatpgusskat/pocketmonname.git"
+  },
+  "author": "plating <contact@plating.co.kr> (http://plating.co.kr)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skatpgusskat/pocketmonname/issues"
+  },
+  "homepage": "https://github.com/skatpgusskat/pocketmonname#readme"
+}
