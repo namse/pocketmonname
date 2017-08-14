@@ -7,5 +7,4 @@ deploy:
   region: ap-northeast-2
   app: pocketmon
   env: pocketmon-env
-  on:
-    repo: skatpgusskat/pocketmonname
+  bucket_name: elasticbeanstalk-pocketmon-file
