@@ -9,3 +9,4 @@ deploy:
   env: pocketmon-env
   on:
     repo: skatpgusskat/pocketmonname
+  bucket_name: elasticbeanstalk-pocketmon-file
