@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "node test.js"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/skatpgusskat/pocketmonname/issues"
   },
-  "homepage": "https://github.com/skatpgusskat/pocketmonname#readme"
+  "homepage": "https://github.com/skatpgusskat/pocketmonname#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
 }
